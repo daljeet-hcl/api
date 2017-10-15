@@ -77,6 +77,39 @@ Variable|Use
 `:ang`   | Set Ang/Paana Number (**REQUIRED**)
 `:source`| **[OPTIONAL]** Set Source **(Default is Guru Granth Sahib Ji - `G`)** - [SourceID List](https://github.com/GurbaniNow/gurbaninow-api/blob/master/SourceID.md)
 
+## Gutka / Precompiled Baanis
+
+**URL**: `https://api.gurbaninow.com/v3/baani/:baani` 
+
+**Examples**: `https://api.gurbaninow.com/v3/baani/japjisahib` 
+
+Variable|Use 
+:--|:--
+`:baani` | [Baani List](https://github.com/GurbaniNow/gurbaninow-api/blob/master/BaaniList.md)
+
+## Amrit Keertan Pothi
+
+### Get List of Topics
+
+**URL**: `https://api.gurbaninow.com/v3/amritkeertan`
+
+### Get List of Sub Topics from Main Topic
+
+**URL**: `https://api.gurbaninow.com/v3/amritkeertan/:topicid`
+
+Variable|Use
+:--|:--
+`:topicid`|Topic ID
+
+### Get List of Shabads from Sub Topic
+
+**URL**: `https://api.gurbaninow.com/v3/amritkeertan/:topicid/:subtopicid`
+
+Variable|Use
+:--|:--
+`:topicid`|Topic ID
+`:subtopicid`|Sub Topic ID
+
 ## Get Today's Hukamnama from Darbar Sahib, Amritsar
 
 **URL**: `https://api.gurbaninow.com/v3/hukamnama/today`
