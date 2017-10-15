@@ -2,7 +2,7 @@
 
 #### The API is located at [https://api.gurbaninow.com/v1/](https://api.gurbaninow.com/v1/). The API uses normal GET Parameters, it does not use REST.
 
-##### NOTE: This API is deprecated and is only recomended for use in old applications that need to use the old [iGurbani v1](http://v1.igurbani.com/) query layout.
+##### NOTE: This API is deprecated and is only recommended for use in old applications that need to use the old [iGurbani v1](http://v1.igurbani.com/) query layout.
 
 ## Search
 
